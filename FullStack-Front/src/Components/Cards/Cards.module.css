@@ -1,0 +1,22 @@
+
+.img{
+    height: 300px;
+    width: 100%;
+}
+.titulo{
+    height: 90px;
+}
+.boton{
+    border: none;
+    background: green;
+}
+.botonEliminar {
+    width: 35px;
+    border: none;
+    background: none;
+}
+
+.card:hover{
+    opacity: .7;
+    transition: .2s;
+}

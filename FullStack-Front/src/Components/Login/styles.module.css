@@ -1,0 +1,89 @@
+.login_container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #140105,
+    #1f0308,
+    #280408,
+    #310406,
+    #3c0307,
+    #470207,
+    #520005,
+    #630007,
+    #730007,
+    #840005,
+    #950101
+  );
+}
+
+
+.left {
+  margin-left: 7px;
+  
+  
+
+
+ 
+  
+  background: rgba(255, 255, 255, 0.15);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 19rem;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 60%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #edf5f3;
+  margin: 5px 0;
+
+  font-size: 14px;
+}
+
+.error_msg {
+  width: 97%;
+  padding: 7px;
+  margin: 3px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.right {
+  margin-right: 7px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 19rem;
+  
+}
+
+.white_btn,
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: red;
+  border-radius: 20px;
+  width: 170px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  
+
+  
+  
+  
+}
+

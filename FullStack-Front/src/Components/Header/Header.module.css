@@ -1,0 +1,84 @@
+.toggleEfecto:hover{
+  border-color: red !important;
+}
+.botonAdminVisible{
+  display: block;
+}
+.botonAdminNone{
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .containerButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+  }
+  .botonSesion {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .botonRegistro {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .botonCategorias{
+    width: 50%;
+  }
+  .botonAdmin{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .containerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .containerSearch {
+    justify-content: center;
+  }
+  .botonSesion {
+    width: 50%;
+  }
+  .botonRegistro {
+    width: 50%;
+  }
+  .botonCategorias{
+    width: 50%;
+  }
+  .botonAdmin{
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .containerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .containerSearch {
+    justify-content: center;
+  }
+  .botonSesion {
+    width: 30%;
+  }
+  .botonRegistro {
+    width: 30%;
+  }
+  .botonCategorias{
+    width: 30%;
+  }
+  .botonAdmin{
+    width: 30%;
+  }
+}

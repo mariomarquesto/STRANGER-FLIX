@@ -1,0 +1,31 @@
+.detalleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+.detalleImagen{
+    border-radius: 15px;
+}
+.firstItem{
+    margin-top: 0;
+}
+.rowTrailer{
+    width: 100%;
+}
+.containerVideo{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    width: 50%;
+    height: 70%;
+}
